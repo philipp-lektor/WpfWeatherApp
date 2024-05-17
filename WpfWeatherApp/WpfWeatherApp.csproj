@@ -1,0 +1,131 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\weathericons\cloudy-day-1.svg" />
+    <None Remove="Images\weathericons\cloudy-day-2.svg" />
+    <None Remove="Images\weathericons\cloudy-day-3.svg" />
+    <None Remove="Images\weathericons\cloudy-night-1.svg" />
+    <None Remove="Images\weathericons\cloudy-night-2.svg" />
+    <None Remove="Images\weathericons\cloudy-night-3.svg" />
+    <None Remove="Images\weathericons\cloudy.svg" />
+    <None Remove="Images\weathericons\day.svg" />
+    <None Remove="Images\weathericons\night.svg" />
+    <None Remove="Images\weathericons\rainy-1.svg" />
+    <None Remove="Images\weathericons\rainy-2.svg" />
+    <None Remove="Images\weathericons\rainy-3.svg" />
+    <None Remove="Images\weathericons\rainy-4.svg" />
+    <None Remove="Images\weathericons\rainy-5.svg" />
+    <None Remove="Images\weathericons\rainy-6.svg" />
+    <None Remove="Images\weathericons\rainy-7.svg" />
+    <None Remove="Images\weathericons\snowy-1.svg" />
+    <None Remove="Images\weathericons\snowy-2.svg" />
+    <None Remove="Images\weathericons\snowy-3.svg" />
+    <None Remove="Images\weathericons\snowy-4.svg" />
+    <None Remove="Images\weathericons\snowy-5.svg" />
+    <None Remove="Images\weathericons\snowy-6.svg" />
+    <None Remove="Images\weathericons\thunder.svg" />
+    <None Remove="Images\weathericons\weather-sprite.svg" />
+    <None Remove="Images\weathericons\weather.svg" />
+    <None Remove="Images\weathericons\weather_sagittarius.svg" />
+    <None Remove="Images\weathericons\weather_sunset.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\weathericons\cloudy-day-1.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\weathericons\cloudy-day-2.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\weathericons\cloudy-day-3.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\weathericons\cloudy-night-1.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\weathericons\cloudy-night-2.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\weathericons\cloudy-night-3.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\weathericons\cloudy.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\weathericons\day.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\weathericons\night.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\weathericons\rainy-1.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\weathericons\rainy-2.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\weathericons\rainy-3.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\weathericons\rainy-4.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\weathericons\rainy-5.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\weathericons\rainy-6.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\weathericons\rainy-7.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\weathericons\snowy-1.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\weathericons\snowy-2.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\weathericons\snowy-3.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\weathericons\snowy-4.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\weathericons\snowy-5.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\weathericons\snowy-6.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\weathericons\thunder.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\weathericons\weather-sprite.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\weathericons\weather.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\weathericons\weather_sagittarius.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\weathericons\weather_sunset.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+    <PackageReference Include="OpenMeteo.dotnet" Version="2.0.0" />
+    <PackageReference Include="SharpVectors" Version="1.8.4" />
+  </ItemGroup>
+
+</Project>
